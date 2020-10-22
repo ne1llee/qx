@@ -16,3 +16,5 @@ if (url.indexOf(user) != -1){
   obj.data.ad.ad_tips = "VIP888";
   body = JSON.stringify(obj);
 }
+
+$done({body});
