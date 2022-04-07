@@ -130,6 +130,5 @@ var obj = JSON.parse($response.body);
     },
     "msg" : "ok",
     "code" : 0
-  }
-  ;
+  };
 $done({body: JSON.stringify(obj)});
